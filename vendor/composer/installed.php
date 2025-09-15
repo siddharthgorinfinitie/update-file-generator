@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'siddharthgor/update-file-generator',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '5db0ffbe912ebca5cf951e35b1923635061abad7',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -122,9 +122,9 @@
             'dev_requirement' => false,
         ),
         'siddharthgor/update-file-generator' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '5db0ffbe912ebca5cf951e35b1923635061abad7',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -175,9 +175,9 @@
             'dev_requirement' => false,
         ),
         'symfony/process' => array(
-            'pretty_version' => '6.4.x-dev',
-            'version' => '6.4.9999999.9999999-dev',
-            'reference' => '48bad913268c8cafabbf7034b39c8bb24fbc5ab8',
+            'pretty_version' => '7.4.x-dev',
+            'version' => '7.4.9999999.9999999-dev',
+            'reference' => 'c61e87dafe1f427ce8d2e1d87c8b90d4806974cd',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/process',
             'aliases' => array(),
