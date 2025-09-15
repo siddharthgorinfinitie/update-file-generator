@@ -41,12 +41,6 @@ trait TranslatorTrait
             return '';
         }
 
-        foreach ($parameters as $k => $v) {
-            if ($v instanceof TranslatableInterface) {
-                $parameters[$k] = $v->trans($this, $locale);
-            }
-        }
-
         if (!isset($parameters['%count%']) || !is_numeric($parameters['%count%'])) {
             return strtr($id, $parameters);
         }

@@ -166,6 +166,7 @@ final class PseudoLocalizationTranslator implements TranslatorInterface, Transla
 
             $parts[] = [false, false, '<'.$childNode->tagName];
 
+            /** @var \DOMAttr $attribute */
             foreach ($childNode->attributes as $attribute) {
                 $parts[] = [false, false, ' '.$attribute->nodeName.'="'];
 
