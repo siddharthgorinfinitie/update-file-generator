@@ -3,7 +3,7 @@
         'name' => 'siddharthgor/update-file-generator',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '5db0ffbe912ebca5cf951e35b1923635061abad7',
+        'reference' => '574423133a85dbc3cb4df4c39949253c38ce123d',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -124,7 +124,7 @@
         'siddharthgor/update-file-generator' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '5db0ffbe912ebca5cf951e35b1923635061abad7',
+            'reference' => '574423133a85dbc3cb4df4c39949253c38ce123d',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
