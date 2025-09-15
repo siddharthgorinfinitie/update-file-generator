@@ -304,8 +304,3 @@ unzip -l update_from_v2.0.1_to_2.0.2.zip
 ## 📜 License
 
 MIT License
-
-```
-
-Do you also want me to make a **shorter README.md version** (like a GitHub landing readme) while keeping this one as a **detailed documentation file**?
-```
