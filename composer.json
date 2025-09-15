@@ -1,0 +1,30 @@
+{
+    "name": "siddharthgor/update-file-generator",
+    "description": "Laravel package for generating fresh install and date-based update packages",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Siddharthgor\\UpdateFileGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Siddharth Gor",
+            "email": "infinitietechnologies09@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^9.0|^10.0|^11.0",
+        "symfony/process": "^6.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Siddharthgor\\UpdateFileGenerator\\UpdateFileGeneratorServiceProvider"
+            ]
+        }
+    }
+}
